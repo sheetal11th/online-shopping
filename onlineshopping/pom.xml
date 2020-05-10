@@ -15,6 +15,12 @@
 	</properties>
 
 	<dependencies>
+		<!-- Link Backend Project -->
+		<dependency>
+			<groupId>net.kzn</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- JAVA EE API -->
 		<dependency>
@@ -24,21 +30,21 @@
 			<scope>provided</scope>
 		</dependency>
 		<!-- JUNIT -->
-		
+
 		<!-- Spring dependency -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>  
+			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
-			<artifactId>jstl</artifactId>  
+			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		
+
 
 		<dependency>
 			<groupId>junit</groupId>
